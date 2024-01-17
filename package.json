@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build:ui": "tsc && vite build",
+    "build:main": "tsc && vite build --config vite.config.main.ts",
+    "build": "yarn build:ui && yarn build:main",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -14,6 +16,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@figma/plugin-typings": "^1.84.0",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
@@ -23,6 +26,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "vite-plugin-singlefile": "^1.0.0"
   }
 }

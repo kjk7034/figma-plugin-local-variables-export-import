@@ -154,6 +154,11 @@
   resolved "https://nano-nexus.ncsoft.com/repository/npm/@eslint/js/-/js-8.56.0.tgz#ef20350fec605a7f7035a01764731b2de0f3782b"
   integrity sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==
 
+"@figma/plugin-typings@^1.84.0":
+  version "1.84.0"
+  resolved "https://nano-nexus.ncsoft.com/repository/npm/@figma/plugin-typings/-/plugin-typings-1.84.0.tgz#d06ed8bece2cbbda8f3d96abfccfe7b822163c05"
+  integrity sha512-YisOp7S2y10BWMLBJY2DazCjRpg/0m03dDlS3nKhpw2alFQSXNuSLLd+y4pbnJpOXJMnInZdbikr/7JxudjsYg==
+
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.14"
   resolved "https://nano-nexus.ncsoft.com/repository/npm/@humanwhocodes/config-array/-/config-array-0.11.14.tgz#d78e481a039f7566ecc9660b4ea7fe6b1fec442b"
@@ -1015,7 +1020,7 @@ merge2@^1.3.0, merge2@^1.4.1:
   resolved "https://nano-nexus.ncsoft.com/repository/npm/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
-micromatch@^4.0.4:
+micromatch@^4.0.4, micromatch@^4.0.5:
   version "4.0.5"
   resolved "https://nano-nexus.ncsoft.com/repository/npm/micromatch/-/micromatch-4.0.5.tgz#bc8999a7cbbf77cdc89f132f6e467051b49090c6"
   integrity sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==
@@ -1302,6 +1307,13 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
+
+vite-plugin-singlefile@^1.0.0:
+  version "1.0.0"
+  resolved "https://nano-nexus.ncsoft.com/repository/npm/vite-plugin-singlefile/-/vite-plugin-singlefile-1.0.0.tgz#e69032ff6539f691b29ca80b06293c609a2158dc"
+  integrity sha512-iVAxl0t7gndQrznI4kI14hqAGxhVL7FQndeTdvTIH5/CbwpR2asgD3XSTsd7iWC83YTCmwAmsHIQvKdIdnHu7w==
+  dependencies:
+    micromatch "^4.0.5"
 
 vite@^5.0.8:
   version "5.0.11"
