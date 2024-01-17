@@ -1,0 +1,8 @@
+{
+  "name": "react test plugin",
+  "id": "wise7034",
+  "api": "1.0.0",
+  "main": "dist/plugin.js",
+  "editorType": ["figma"],
+  "ui": "dist/index.html"
+}
