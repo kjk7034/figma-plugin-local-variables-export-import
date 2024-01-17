@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# 작업 내용 정리
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. `create vite`로 React + Typescript + SWC 설치
 
-Currently, two official plugins are available:
+2. `manifest.json` 작성
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. manifest 기준으로 vite build 설정
 
-## Expanding the ESLint configuration
+4. [Figma downloads](https://www.figma.com/downloads/)에서 Desktop app 설치 (기존에 있으면 패스)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+5. Desktop에서 Figma 실행
 
-- Configure the top-level `parserOptions` property like this:
+6. Plugins > Development > Import plugin from manifest... 선택 후 해당 프로젝트 `manifest.json`선택
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+   <img src="./docs/add-plugin-in-figma.png" alt="Plugins > Development > Import plugin from manifest... 선택 화면" />
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+7. 플러그인 실행
+
+   <img src="./docs/run-plugin.png" alt="Plugins 실행 화면" />
+
+## TODO
+
+- API 연동 테스트
