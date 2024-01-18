@@ -32,7 +32,7 @@
 
 복사된 Local variables 확인해 보니 alias 연결까지 잘 된 것으로 확인.
 
-<img src="./docs/plugin-result-2.png" alt="복사된 Local variables" />
+<img src="./docs/plugin-result-2.PNG" alt="복사된 Local variables" />
 
 ## 개발과정
 
