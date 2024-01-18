@@ -1,23 +1,31 @@
-# 작업 내용 정리
+# Figma Plugin Local variables Export + Import
 
-1. `create vite`로 React + Typescript + SWC 설치
+## 플러그인 작업 이유
 
-2. `manifest.json` 작성
+현재 작업 중인 or 새로 작업할 프로젝트에서 이전에 작업했던 Local variables을 가져오는 기능이 필요함.
 
-3. manifest 기준으로 vite build 설정
+직접 수작업으로 가져오던가 다른 플러그인을 사용하면 링크가 깨져서 사용하기 힘들다는 디자이너의 피드백.
 
-4. [Figma downloads](https://www.figma.com/downloads/)에서 Desktop app 설치 (기존에 있으면 패스)
+<img src="./docs/plugin-result.png" alt="플러그인 실행화면" />
 
-5. Desktop에서 Figma 실행
+## 플러그인 기능 설명
 
-6. Plugins > Development > Import plugin from manifest... 선택 후 해당 프로젝트 `manifest.json`선택
+간단하게 다운로드 + 적용
 
-   <img src="./docs/add-plugin-in-figma.png" alt="Plugins > Development > Import plugin from manifest... 선택 화면" />
+### Export
 
-7. 플러그인 실행
+가져올 프로젝트에서 다운로드를 클릭해서 .json 파일 다운로드
 
-   <img src="./docs/run-plugin.png" alt="Plugins 실행 화면" />
+### Import
 
-## TODO
+추가하고 싶은 프로젝트에서 다운받은 파일을 첨부해서 적용하기 버튼 클릭
 
-- API 연동 테스트
+### 결과
+
+복사된 Local variables 확인해 보니 alias 연결까지 잘 된 것으로 확인.
+
+<img src="./docs/plugin-result-2.png" alt="복사된 Local variables" />
+
+## 개발과정
+
+[개발과정.md](./docs/개발과정.md)
