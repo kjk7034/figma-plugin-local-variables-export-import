@@ -1,5 +1,13 @@
 # Figma Plugin Local variables Export + Import
 
+## 시작하기
+
+1. `yarn` install
+
+2. `yarn build:ui --watch`, `yarn build:main --watch` 두개의 watch 실행
+
+3. Plugins > Development > Import plugin from manifest... 선택 후 해당 프로젝트 `manifest.json`선택 (개발과정 참고)
+
 ## 플러그인 작업 이유
 
 현재 작업 중인 or 새로 작업할 프로젝트에서 이전에 작업했던 Local variables을 가져오는 기능이 필요함.
