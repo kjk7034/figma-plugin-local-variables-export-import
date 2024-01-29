@@ -40,4 +40,5 @@
 
 ## 기타
 
-실제 사내 프로젝트에서는 collections를 선택해서 원하는 collection만 복사할 수 있도록 개발을 진행했다.
+- 실제 사내 프로젝트에서는 collections를 선택해서 원하는 collection만 복사할 수 있도록 개발을 진행했다.
+- resize 기능이 필요해서, [create-figma-plugin에서 use-window-resize을 커스텀해서 사용](https://github.com/yuanqing/create-figma-plugin/blob/main/packages/ui/src/hooks/use-window-resize.ts)
